@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff4f7;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #d65a7a;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 24px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    max-width: 520px;
+    transition: all 0.5s ease;
+}
+
+.card p {
+    color: #6f5a61;
+    font-size: 18px;
+}
+#wish{display: none;
+    line-height: 1.7;
+    animation: fadeIn 0.8s ease;
+}
+button {
+    background :#d65a7a;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
